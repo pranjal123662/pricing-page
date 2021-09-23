@@ -16,6 +16,7 @@ body{
     margin:0 15px;
     margin-top:30px;
 }
+
 .slider{
     position:absolute;
     cursor:pointer;
@@ -27,6 +28,7 @@ body{
     transition:.4s;
     border-radius: 34px;
 }
+
 .switch input{
     display:none;
 }
@@ -43,13 +45,16 @@ body{
     top:2.2px;
     border-radius: 50%;
 }
+
 input:checked + .slider:before{
     transform:translateX(50px);
 }
+
 #uppertext{
     font-family: 'Montserrat', sans-serif;
     text-align:center;
 }
+
 .flex-container{
     display:flex;
     justify-content:center;
@@ -58,9 +63,11 @@ input:checked + .slider:before{
     margin-top:200px;
     gap:1.5rem;
 }
+
 hr{
     width:70%;
 }
+
 .textsizing{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -68,6 +75,7 @@ hr{
     font-size:15px;
     margin-top:25px;
 }
+
 .textfortoggle{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -81,9 +89,11 @@ hr{
    display:flex;
    justify-content: center;
 }
+
 #dollar{
     font-size:40px;
 }
+
 .price{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -91,6 +101,7 @@ hr{
     font-size:30px;
     margin-top:25px;
 }
+
 #price1{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -105,6 +116,7 @@ hr{
     font-size:50px;
     margin-top:25px;
 }
+
 #price3{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -112,6 +124,7 @@ hr{
     font-size:50px;
     margin-top:25px;
 }
+
 .wholetext{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -119,6 +132,7 @@ hr{
     font-size:15px;
     margin-top:25px;
 }
+
 .toggle{
     display:flex;
     justify-content: center;
@@ -133,13 +147,13 @@ hr{
     border-radius: 10px;
     
 }
+
 .div1:hover {
     background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%));
     transform: scale(1.15);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);   
 }
+
 .div1:hover .wholetext{
     color:white;
 }
@@ -151,11 +165,13 @@ hr{
 .div1:hover .price{
     color:white;
 }
+
 .div1:hover #btn{
     background-image: linear-gradient(white,white);
     color:hsl(236, 72%, 79%);
-}  
-  .container {  
+}
+
+.container {  
     width: 400px;  
     height: 100px;  
     border: 5px solid transparent;                                         ;  
@@ -163,7 +179,8 @@ hr{
     justify-content: center;  
     align-items: center;  
     margin-left:-36px;
-    }   
+}
+   
 #btn {  
     box-shadow: 0 4px 8px 0 grey;
     background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%)); 
