@@ -14,6 +14,21 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <nav class="navbar">
+      <div class="brand-title">BRAND</div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <h3 id="uppertext">Our Pricing</h3>
     <div id="toggle">
       <h4 class="textfortoggle">Annually</h4>
@@ -80,6 +95,12 @@
       </div>
     </div>
     <script>
+      const toggleButton = document.getElementsByClassName('toggle-button')[0]
+      const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+      toggleButton.addEventListener('click', () => {
+         navbarLinks.classList.toggle('active')
+       })
+
       function change() {
         let checkbox = document.getElementById("toggle-container");
         if (checkbox.checked === true) {
