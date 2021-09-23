@@ -182,7 +182,8 @@ hr{
 }
 
 #btn {  
-    box-shadow: 0 4px 8px 0 grey;
+    /* box-shadow: 0 4px 8px 0 grey; */
+    border:none;
     background-image: linear-gradient(to bottom, hsl(236, 72%, 79%), hsl(237, 63%, 64%)); 
     color:white;  
     font-size: 15px;  
