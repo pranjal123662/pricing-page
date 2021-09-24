@@ -390,7 +390,7 @@ hr{
     flex-direction:column;
     justify-content: space-around;
     left:50%;
-    margin-left:-240px;
+    margin-left:-195px;
     padding-top:100px;
     margin-top:80px;
     position:absolute;
@@ -423,6 +423,7 @@ form{
     font-weight:700;
     font-size:40px;
     margin-top:-57px;
+    color:white
 }
 .container1 {  
     width: 325px;  
